@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <section class="py-3">
+            <div class="w-[90%] ms-auto">
+                <ul class="flex flex-row flex-wrap justify-start gap-x-6 text-sm">
+                    <li class="flex flex-row items-center gap-x-1">
+                        <object type="image/svg+xml" data="svgs/phone.svg" class="green-svg" height="15"></object>
+                        <span>Call: +01 123455678990</span>
+                    </li>
+                    <li class="flex flex-row items-center gap-x-1">
+                        <object type="image/svg+xml" data="svgs/email.svg" class="green-svg" height="15"></object>
+                        <span>Email: demo@gmail.com</span>
+                    </li>
+                    <li class="flex flex-row items-center gap-x-1">
+                        <object type="image/svg+xml" data="svgs/location.svg" class="green-svg" height="15"></object>
+                        <span>Location: Dhaka, Bangaldesh</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <nav class="bg-[#00c6a9]">
+            <div
+                class="h-16 lg:h-20 w-[95%] mx-auto flex flex-row flex-wrap justify-between uppercase text-white text-sm font-medium">
+                <ul class="flex flex-row flex-wrap items-center">
+                    <li class="flex justify-center items-center bg-white h-full w-auto px-3">
+                        <img src="/images/logo.png" alt="logo" class="" />
+                    </li>
+                    <li
+                        class="hover:bg-white hover:text-black transition duration-150 ease-in-out h-full flex justify-center items-center lg:px-5 px-2 cursor-pointer">
+                        Home</li>
+                    <li
+                        class="hover:bg-white hover:text-black transition duration-150 ease-in-out h-full flex justify-center items-center lg:px-5 px-2 cursor-pointer">
+                        About</li>
+                    <li
+                        class="hover:bg-white hover:text-black transition duration-150 ease-in-out h-full flex justify-center items-center lg:px-5 px-2 cursor-pointer">
+                        Services</li>
+                    <li
+                        class="hover:bg-white hover:text-black transition duration-150 ease-in-out h-full flex justify-center items-center lg:px-5 px-2 cursor-pointer">
+                        Portfolio</li>
+                    <li
+                        class="hover:bg-white hover:text-black transition duration-150 ease-in-out h-full flex justify-center items-center lg:px-5 px-2 cursor-pointer">
+                        Contact</li>
+                </ul>
+                <ul class="flex-row items-center hidden lg:flex">
+                    <li
+                        class="hoverable-item hover:bg-white hover:text-black transition duration-150 ease-in-out h-full flex justify-center items-center gap-x-1 px-5 cursor-pointer">
+                        <object type="image/svg+xml" data="svgs/user.svg" class="white-svg-hover" height="15"></object>
+                        <span>Login</span>
+                    </li>
+                    <li
+                        class="hoverable-item hover:bg-white hover:text-black transition duration-150 ease-in-out h-full flex justify-center items-center gap-x-1 px-5 cursor-pointer">
+                        <object type="image/svg+xml" data="svgs/user.svg" class="white-svg-hover" height="15"></object>
+                        <span>Sign up</span>
+                    </li>
+                    <li
+                        class="hoverable-item hover:bg-white hover:text-black transition duration-150 ease-in-out h-full flex justify-center items-center gap-x-1 px-5 cursor-pointer">
+                        <object type="image/svg+xml" data="svgs/magnifier.svg" class="white-svg-hover"
+                            height="15"></object>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="py-5 pb-5 relative border-b-2 border-gray-200">
+            <img src="/images/dots.png" alt="dot pattern" class="absolute w-[300px] right-0 top-0" />
+            <div class="w-[80%] mx-auto">
+                <div class="grid lg:grid-cols-2">
+                    <div class="justify-items-stretch self-center">
+                        <div class="flex flex-col gap-y-7">
+                            <div
+                                class="w-14 h-14 bg-[#00c6a9] rounded-full overflow-hidden flex justify-center items-center">
+                                <img src="/images/play.png" alt="play-logo" class="w-3 h-auto">
+                            </div>
+                            <div class="flex flex-col gap-y-2 uppercase text-5xl font-semibold">
+                                <h1>MICO</h1>
+                                <h1 class="text-[#00c6a9]">HOSPITAL</h1>
+                            </div>
+                            <div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas sint quibusdam
+                                    repellendus odit iusto assumenda quo numquam ipsa.</p>
+                            </div>
+                            <div>
+                                <button
+                                    class="bg-[#252525] hover:bg-[#4c4c4c] transition duration-150 ease-in-out text-white px-8 py-2 rounded">
+                                    Contact Us
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="justify-items-stretch self-center">
+                        <div class="flex flex-col justify-start">
+                            <div class="">
+                                <img src="/images/slider-img.jpg" alt="slide image" class="w-full" />
+                            </div>
+                            <div class="absolute w-[90%] -bottom-4 right-0 left-0 flex flex-row gap-x-2 justify-end">
+                                <div
+                                    class="bg-[#00c6a9] hover:bg-[#00937d] transition h-9 w-9 p-3 cursor-pointer flex justify-center items-center">
+                                    <img src="/images/prev.png" alt="prev-icon" />
+                                </div>
+                                <div
+                                    class="bg-[#00c6a9] hover:bg-[#00937d] transition h-9 w-9 p-3 cursor-pointer flex justify-center items-center">
+                                    <img src="/images/next.png" alt="prev-icon" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="w-[80%] mx-auto py-16 lg:px-10">
+            <div>
+                <div class="relative">
+                    <h2 class="uppercase font-semibold text-xl">Book <span class="text-[#00c6a9]">Appointment</span>
+                    </h2>
+                    <div class="w-16 border border-[#00c6a9]"></div>
+                </div>
+                <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-3 my-6">
+                    <div class="flex flex-col gap-y-1">
+                        <label for="">Patient name</label>
+                        <input type="text"
+                            class="w-full border border-gray-300 px-3 py-2 rounded focus:outline-none focus:border-[#00c6a9] transition duration-150 ease-in-out" />
+                    </div>
+                    <div class="flex flex-col gap-y-1">
+                        <label for="">Doctor's name</label>
+                        <!-- create dropdown  -->
+                        <select
+                            class="w-full border border-gray-300 px-3 py-2 rounded focus:outline-none focus:border-[#00c6a9] transition duration-150 ease-in-out">
+                            <option value="1">Normal distribution</option>
+                            <option value="2">Dr. Jane Doe</option>
+                            <option value="3">Dr. Alex Doe</option>
+                            <option value="4">Dr. Smith Doe</option>
+                            <option value="5">Dr. Doe</option>
+                        </select>
+                    </div>
+                    <div class="flex flex-col gap-y-1">
+                        <label for="">Department's name</label>
+                        <!-- create dropdown  -->
+                        <select
+                            class="w-full border border-gray-300 px-3 py-2 rounded focus:outline-none focus:border-[#00c6a9] transition duration-150 ease-in-out">
+                            <option value="1">Normal distribution</option>
+                            <option value="2">Cardiology</option>
+                            <option value="3">Dental</option>
+                            <option value="4">Neurology</option>
+                            <option value="5">Orthopedic</option>
+                        </select>
+                    </div>
+                    <div class="flex flex-col gap-y-1">
+                        <label for="">Phone Number</label>
+                        <input type="text" placeholder="xxxxxxxxxxx"
+                            class="w-full border border-gray-300 px-3 py-2 rounded focus:outline-none focus:border-[#00c6a9] transition duration-150 ease-in-out" />
+                    </div>
+                    <div class="flex flex-col gap-y-1">
+                        <label for="">Symptoms</label>
+                        <input type="text" placeholder="Your Name"
+                            class="w-full border border-gray-300 px-3 py-2 rounded focus:outline-none focus:border-[#00c6a9] transition duration-150 ease-in-out" />
+                    </div>
+                    <div class="flex flex-col gap-y-1">
+                        <label for="">Choose Date</label>
+                        <input type="date" placeholder="Your Name"
+                            class="w-full border border-gray-300 px-3 py-2 rounded focus:outline-none focus:border-[#00c6a9] transition duration-150 ease-in-out" />
+                    </div>
+                </div>
+                <div>
+                    <button
+                        class="bg-[#252525] hover:bg-[#4c4c4c] transition duration-150 ease-in-out text-white px-8 py-2 rounded uppercase">
+                        Submit Now
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/style.js"></script>
+</body>
+
+</html>
